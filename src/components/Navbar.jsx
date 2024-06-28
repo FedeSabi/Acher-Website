@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className="antialiased bg-gray-400">
-      <header className="lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2">
+      <header className="lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2 border-2 shadow-md">
         <div className="flex-auto flex justify-between items-center">
           <a href="#">
           <img src={logo} alt='Logo Acher' className='w-[121.25px] h-[62.06px] m-4'/>  
@@ -86,12 +86,7 @@ const Navbar = () => {
             </ul>
           </nav>
         </div>
-      </header>
-      <div className="px-4 py-6">
-        <div className="max-w-3xl bg-white rounded-lg mx-auto my-16 p-16">
-         
-        </div>
-      </div>
+      </header>    
     </div>
   );
 };
