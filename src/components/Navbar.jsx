@@ -77,7 +77,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:mb-0 mb-2 text-2xl">
-                <a href="#" className='flex items-center'
+                <a href=" https://wa.me/5491131879486" className='flex items-center'
                 ><ImWhatsapp className='mr-2 text-green-500'/> 
                 Ventas
                   
