@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="bg-blue-500 rounded-full h-16 w-16 flex items-center justify-center">
               <FaMapMarkerAlt className="text-white text-4xl" />
             </div>
-            <a href="#" className="lg:text-lg text-sm text-gray-600 mb-6">
+            <a href="https://www.google.com/maps/place/Doblas+1510,+C1424BMF+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/@-34.634307,-58.4301724,17z/data=!3m1!4b1!4m6!3m5!1s0x95bccbad935c5e6d:0x6e52fc7da6df63ce!8m2!3d-34.6343114!4d-58.4275975!16s%2Fg%2F11c2542gqz?authuser=0&entry=ttu" className="lg:text-lg text-sm text-gray-600 mb-6">
               VER MAPA
             </a>
           </div>
