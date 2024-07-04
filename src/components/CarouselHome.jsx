@@ -18,8 +18,8 @@ const CarouselHome = () => {
   ];
 
   return (
-    <div>
-      <ImageGallery items={images} />
+    <div className='w-[50vw]  m-auto pt-36 pb-10'>
+      <ImageGallery items={images} showPlayButton={false} autoPlay={true} slideInterval={2500}/>
     </div>
   );
 };
