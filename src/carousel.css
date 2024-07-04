@@ -1,0 +1,6 @@
+.custom-image-gallery .image-gallery-image {
+    height: 380px;
+    width: 800px;
+    object-fit: cover;
+  }
+  

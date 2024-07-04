@@ -1,8 +1,10 @@
+
 import ImageGallery from 'react-image-gallery';
-import ImgHome1 from '../assets/carrousel_medicina_1.jpg';
-import ImgHome2 from '../assets/carrousel_medicina_2.jpg';
-import ImgHome3 from '../assets/carrousel_medicina_3.jpg';
+import ImgHome1 from '../assets/carrousel_medicina_3.png';
+import ImgHome2 from '../assets/carrousel_medicina_3.png';
+import ImgHome3 from '../assets/carrousel_medicina_3.png';
 import 'react-image-gallery/styles/css/image-gallery.css';
+//import '../carousel.css'
 
 const CarouselHome = () => {
   const images = [
@@ -18,10 +20,11 @@ const CarouselHome = () => {
   ];
 
   return (
-    <div className='w-[50vw]  m-auto pt-36 pb-10'>
-      <ImageGallery items={images} showPlayButton={false} autoPlay={true} slideInterval={2500}/>
+    <div className='w-auto m-auto pt-36 pb-10 custom-image-gallery'>
+      <ImageGallery items={images} showPlayButton={false} autoPlay={true} slideInterval={4000} showFullscreenButton={false} showNav={false} showBullets={true} />
     </div>
   );
 };
 
 export default CarouselHome;
+
