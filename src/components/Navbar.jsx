@@ -113,7 +113,7 @@ const Navbar = () => {
       <header className="fixed top-0 left-0 right-0 z-50 lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2 border-2 shadow-md">
         <div className="flex-auto flex justify-between items-center">
           <a href="#">
-            <img src={logo} alt='Logo Acher' className='w-[121.25px] h-[62.06px] m-4'/>
+            <img src={logo} alt='Logo Acher' className='w-[146px] h-[82px] m-4'/>
           </a>
         </div>
 
