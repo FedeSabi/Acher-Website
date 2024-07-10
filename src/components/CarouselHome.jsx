@@ -4,7 +4,6 @@ import ImgHome1 from '../assets/carrousel_medicina_3.png';
 import ImgHome2 from '../assets/carrousel_medicina_3.png';
 import ImgHome3 from '../assets/carrousel_medicina_3.png';
 import 'react-image-gallery/styles/css/image-gallery.css';
-//import '../carousel.css'
 
 const CarouselHome = () => {
   const images = [
