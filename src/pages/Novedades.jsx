@@ -17,6 +17,7 @@ const Novedades = () => {
             </p>
             <img src={ImgHome1} className='w-[614px] h-[337px]'/>
         </div>
+        <div className="border-2 border-[#6AB4D2] h-[712.89px]"></div> {/* Línea divisoria */}
         <div className="w-1/2 flex flex-col gap-10">
             <h1>
             Título de producto NUEVO
