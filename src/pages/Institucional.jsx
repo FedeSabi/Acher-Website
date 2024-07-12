@@ -54,13 +54,13 @@ const Institucional = () => {
           </p>
           <p className="text-xl text-[#505050] -mt-4">
             Destacamos la permanente participación y soporte en los cursos
-            <b>“Hands on”</b>, en el marco de las distintas asociaciones nacionales y
-            provinciales.
+            <b>“Hands on”</b>, en el marco de las distintas asociaciones
+            nacionales y provinciales.
           </p>
           <p className="text-xl text-[#505050] -mt-4">
-            Estamos convencidos que los cursos <b>“Hands on”</b> son uno de los motores
-            fundamentales para el desarrollo y crecimiento del intervensionismo
-            en el País.
+            Estamos convencidos que los cursos <b>“Hands on”</b> son uno de los
+            motores fundamentales para el desarrollo y crecimiento del
+            intervensionismo en el País.
           </p>
         </div>
         <div className="w-1/3 flex flex-col gap-10">

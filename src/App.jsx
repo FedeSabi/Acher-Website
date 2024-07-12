@@ -6,20 +6,24 @@ import ButtonsHome2 from "./components/ButtonsHome2";
 import Institucional from "./pages/Institucional";
 import EspecialidadesMedicas from "./pages/EspecialidadesMedicas";
 import Novedades from "./pages/Novedades";
-
+import Representaciones from "./pages/Representaciones";
 
 function App() {
   return (
     <Router>
-<Navbar />
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/Institucional" element={<Institucional/>} />
-        <Route path="/buttonHome2" element={<ButtonsHome2/>} />
-        <Route path="/especialidadesMedicas" element={<EspecialidadesMedicas />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/Institucional" element={<Institucional />} />
+        <Route path="/buttonHome2" element={<ButtonsHome2 />} />
+        <Route
+          path="/especialidadesMedicas"
+          element={<EspecialidadesMedicas />}
+        />
         <Route path="/novedades" element={<Novedades />} />
+        <Route path="/Representaciones" element={<Representaciones />} />
       </Routes>
- <Footer /> 
+      <Footer />
     </Router>
   );
 }
