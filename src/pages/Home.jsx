@@ -1,5 +1,6 @@
 import ButtonsHome2 from "../components/ButtonsHome2";
 import CarouselHome from "../components/CarouselHome";
+import CarouselIcons from "../components/CauroselIcons";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         <ButtonsHome2 />
       </div>
       <div className="flex flex-row gap-5 justify-around "></div>
+      <CarouselIcons />
     </>
   );
 };
