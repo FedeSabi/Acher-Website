@@ -4,8 +4,11 @@ import seegen from  "../assets/2 SEEGEN.png"
 import allium from "../assets/3 ALLIUM.png"
 import spatz from "../assets/4 SPATZ.png"
 import anx from "../assets/5 ANX.png"
-
-
+import capsovision from "../assets/6 CAPSOVISION.png"
+import zephyr from "../assets/7 ZEPHYR.png"
+import ovesco from "../assets/8 OVESCO.png"
+import danumed from "../assets/9 DANUMED.png"
+import vigeo from "../assets/10 VIGEO.png"
 
 const Representaciones = () => {
   return (
@@ -19,7 +22,7 @@ const Representaciones = () => {
           <div>
             <a
               href="https://www.cookmedical.com/"
-              className="size-6 font-lato underline"
+              className="size-6 font-lato underline hover:text-[#2987BC]"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -28,13 +31,14 @@ const Representaciones = () => {
             </a>
           </div>
         </div>
+        {/* primer fila de icons */}
         <div className="w-5/5 flex flex-row justify-around">
         <div className="flex flex-col items-center justify-center mt-28 gap-6">
           <img src={quanta} className="w-[338px] h-[132px]" />
           <div>
             <a
               href="https://www.quantasystem.com/es/"
-              className="size-6 font-lato underline"
+              className="size-6 font-lato underline hover:text-[#2987BC]"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -48,7 +52,7 @@ const Representaciones = () => {
           <div>
             <a
               href="https://www.seegenmed.com/"
-              className="size-6 font-lato underline"
+              className="size-6 font-lato underline hover:text-[#2987BC]"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -62,7 +66,7 @@ const Representaciones = () => {
           <div>
             <a
               href="https://www.allium-medical.com/"
-              className="size-6 font-lato underline"
+              className="size-6 font-lato underline hover:text-[#2987BC]"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -72,11 +76,11 @@ const Representaciones = () => {
           </div>
         </div>
         <div className="flex flex-col items-center justify-center mt-28 gap-6">
-          <img src={spatz} className="w-[203px] h-[130px]" />
+          <img src={spatz} className="w-[213px] h-[130px]" />
           <div>
             <a
               href="https://www.spatzmedical.com/es/"
-              className="size-6 font-lato underline"
+              className="size-6 font-lato underline hover:text-[#2987BC]"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -90,7 +94,7 @@ const Representaciones = () => {
           <div>
             <a
               href="https://www.anxrobotics.com/"
-              className="size-6 font-lato underline"
+              className="size-6 font-lato underline hover:text-[#2987BC]"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -100,74 +104,75 @@ const Representaciones = () => {
           </div>
         </div>
         </div>
+        {/* segunda fila de icons */}
         <div className="w-5/5 flex flex-row justify-around mb-48">
         <div className="flex flex-col items-center justify-center mt-28 gap-6">
-          <img src={cook} className="w-[203px] h-[130px]" />
+          <img src={capsovision} className="w-[206px] h-[130px]" />
           <div>
             <a
-              href="https://www.cookmedical.com/"
-              className="size-6 font-lato underline"
+              href="https://capsovision.com/"
+              className="size-6 font-lato underline hover:text-[#2987BC]"
               target="_blank"
               rel="noopener noreferrer"
             >
               {" "}
-              Cook Medical Website
+              CapsoVisión Website
             </a>
           </div>
         </div>
         <div className="flex flex-col items-center justify-center mt-28 gap-6">
-          <img src={cook} className="w-[203px] h-[130px]" />
+          <img src={zephyr} className="w-[203px] h-[130px]" />
           <div>
             <a
-              href="https://www.cookmedical.com/"
-              className="size-6 font-lato underline"
+              href="https://es.zsimplants.ch/"
+              className="size-6 font-lato underline hover:text-[#2987BC]"
               target="_blank"
               rel="noopener noreferrer"
             >
               {" "}
-              Cook Medical Website
+              Zephyr Website
             </a>
           </div>
         </div>
         <div className="flex flex-col items-center justify-center mt-28 gap-6">
-          <img src={cook} className="w-[203px] h-[130px]" />
+          <img src={ovesco} className="w-[219px] h-[130px]" />
           <div>
             <a
-              href="https://www.cookmedical.com/"
-              className="size-6 font-lato underline"
+              href="https://ovesco.com/"
+              className="size-6 font-lato underline hover:text-[#2987BC]"
               target="_blank"
               rel="noopener noreferrer"
             >
               {" "}
-              Cook Medical Website
+              Ovesco Website
             </a>
           </div>
         </div>
         <div className="flex flex-col items-center justify-center mt-28 gap-6">
-          <img src={cook} className="w-[203px] h-[130px]" />
+          <img src={danumed} className="w-[231px] h-[130px]" />
           <div>
             <a
-              href="https://www.cookmedical.com/"
-              className="size-6 font-lato underline"
+              href="https://www.danumed.com/"
+              className="size-6 font-lato underline hover:text-[#2987BC]"
               target="_blank"
               rel="noopener noreferrer"
             >
               {" "}
-              Cook Medical Website
+              Danumed Website
             </a>
           </div>
         </div>
         <div className="flex flex-col items-center justify-center mt-28 gap-6">
-          <img src={cook} className="w-[203px] h-[130px]" />
+          <img src={vigeo} className="w-[200px] h-[130px]" />
           <div>
             <a
-              href="https://www.cookmedical.com/"
-              className="size-6 font-lato underline"
+              href="https://www.vigeosrl.it/"
+              className="size-6 font-lato underline hover:text-[#2987BC]"
               target="_blank"
               rel="noopener noreferrer"
             >
               {" "}
-              Cook Medical Website
+              Vigeo Website
             </a>
           </div>
         </div>
