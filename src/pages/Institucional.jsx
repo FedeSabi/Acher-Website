@@ -18,7 +18,9 @@ const Institucional = () => {
           </p>
         </div>
         <div className="w-full sm:w-2/3 md:w-1/3 flex flex-col gap-10">
-          <h1 className="sm:text-4xl text-3xl text-[#2987BC] sm:mt-0 mt-10 ">Desarrollo</h1>
+          <h1 className="sm:text-4xl text-3xl text-[#2987BC] sm:mt-0 mt-10 ">
+            Desarrollo
+          </h1>
           <p className="sm:text-xl text-md text-[#505050]">
             Actualmente es considerada una de las empresas de dispositivos
             médicos más destacadas en Argentina contando con un canal de
@@ -31,7 +33,9 @@ const Institucional = () => {
           </p>
         </div>
         <div className="w-full sm:w-2/3 md:w-1/3 flex flex-col gap-10">
-          <h1 className="sm:text-4xl text-3xl text-[#2987BC] sm:mt-0 mt-10">Negocio</h1>
+          <h1 className="sm:text-4xl text-3xl text-[#2987BC] sm:mt-0 mt-10">
+            Negocio
+          </h1>
           <p className="sm:text-xl text-md text-[#505050]">
             Acher nace en 1968, especializada en la comercialización de
             productos médicos. Principalmente importa desde USA, Dinamarca,
@@ -64,7 +68,9 @@ const Institucional = () => {
           </p>
         </div>
         <div className="w-full sm:w-2/3 md:w-1/3 flex flex-col gap-10">
-          <h1 className="sm:text-4xl text-3xl text-[#2987BC] sm:mt-0 mt-10">Especialidades</h1>
+          <h1 className="sm:text-4xl text-3xl text-[#2987BC] sm:mt-0 mt-10">
+            Especialidades
+          </h1>
           <p className="sm:text-xl text-md text-[#505050]">
             Gastroenterología/ Endoscopia, Cirugía Vascular, Cardiología y
             Radiología Intervencionista, Laparoscopia, Urología, Terapia
@@ -72,7 +78,9 @@ const Institucional = () => {
           </p>
         </div>
         <div className="w-full sm:w-2/3 md:w-1/3 flex flex-col gap-10">
-          <h1 className="sm:text-4xl text-3xl text-[#2987BC] sm:mt-0 mt-10">Cobertura</h1>
+          <h1 className="sm:text-4xl text-3xl text-[#2987BC] sm:mt-0 mt-10">
+            Cobertura
+          </h1>
           <p className="sm:text-xl text-md text-[#505050] sm:mb-0 mb-20">
             Maneja en forma directa Capital Federal, Provincia de Buenos Aires,
             Mar del Plata y Córdoba.Cuenta con una red de distribuidores en el

@@ -18,7 +18,7 @@ const Navbar = () => {
             <img
               src={logo}
               alt="Logo Acher"
-              className="w-[146px] h-[82px] m-4"
+              className="w-[146px]  h-[82px] m-4"
             />
           </a>
         </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
             <ul className="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0 gap-2">
               <li>
                 <a
-                  className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 text-2xl"
+                  className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:text-2xl text-lg"
                   href="/especialidadesMedicas"
                 >
                   Especialidades Médicas
@@ -65,7 +65,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 text-2xl"
+                  className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:text-2xl text-lg"
                   href="/representaciones"
                 >
                   Representaciones
@@ -73,7 +73,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 text-2xl"
+                  className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:text-2xl text-md"
                   href="/Institucional"
                 >
                   Institucional
@@ -81,19 +81,19 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:mb-0 mb-2 text-2xl"
+                  className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:mb-0 mb-2 lg:text-2xl text-lg"
                   href="/novedades"
                 >
                   Novedades
                 </a>
               </li>
-              <li className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:mb-0 mb-2 text-xl">
+              <li className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:mb-0 mb-2 lg:text-xl text-lg">
                 <a href="#" className="flex items-center">
                   <FaPhone className="mr-2" />
                   (+54 11) 4921-0173
                 </a>
               </li>
-              <li className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:mb-0 mb-2 text-2xl">
+              <li className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:mb-0 mb-2 lg:text-2xl text-lg">
                 <a
                   href=" https://wa.me/5491131879486"
                   className="flex items-center"

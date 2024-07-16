@@ -14,7 +14,9 @@ const Representaciones = () => {
   return (
     <div>
       <div className="flex flex-row justify-center items-center w-full h-[171px] mt-[120px] bg-[#d9f0f9] font-lato">
-        <h1 className="sm:text-6xl text-4xl text-[#2987BC]">Representaciones</h1>
+        <h1 className="sm:text-6xl text-4xl text-[#2987BC]">
+          Representaciones
+        </h1>
       </div>
       <div className="flex flex-col">
         <div className="flex flex-col items-center justify-center mt-28 gap-6">
@@ -34,7 +36,7 @@ const Representaciones = () => {
         {/* primer fila de icons */}
         <div className="w-5/5 flex flex-col sm:flex-row justify-around">
           <div className="flex flex-col items-center justify-center mt-28 gap-6">
-            <img src={quanta}/>
+            <img src={quanta} />
             <div>
               <a
                 href="https://www.quantasystem.com/es/"
@@ -90,7 +92,7 @@ const Representaciones = () => {
             </div>
           </div>
           <div className="flex flex-col items-center justify-center mt-28 gap-6">
-            <img src={anx}/>
+            <img src={anx} />
             <div>
               <a
                 href="https://www.anxrobotics.com/"
