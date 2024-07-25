@@ -38,6 +38,7 @@ const CarouselIcons = () => {
   };
 
   return (
+    <>
     <div className="w-auto m-auto pt-36 pb-10">
       <Carousel
         responsive={responsive}
@@ -59,6 +60,7 @@ const CarouselIcons = () => {
         ))}
       </Carousel>
     </div>
+    </>
   );
 };
 

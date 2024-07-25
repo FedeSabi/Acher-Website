@@ -12,9 +12,9 @@ const Navbar = () => {
 
   return (
     <div className="antialiased bg-gray-400">
-      <header className="fixed top-0 left-0 right-0 z-50 lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2 border-2 shadow-md">
-        <div className="flex-auto flex justify-between items-center">
-          <a href="#">
+      <header className="fixed top-0 left-0 right-0 z-50 lg:px-16 px-6 bg-white flex  justify-around items-center lg:py-0 py-2 border-2 shadow-md">
+        <div className="flex-auto flex items-center">
+          <a href="/">
             <img
               src={logo}
               alt="Logo Acher"
@@ -57,7 +57,7 @@ const Navbar = () => {
             <ul className="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0 gap-2">
               <li>
                 <a
-                  className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:text-2xl text-lg"
+                  className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:text-xl text-lg"
                   href="/especialidadesMedicas"
                 >
                   Especialidades Médicas
@@ -65,7 +65,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:text-2xl text-lg"
+                  className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:text-xl text-lg"
                   href="/representaciones"
                 >
                   Representaciones
@@ -73,7 +73,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:text-2xl text-md"
+                  className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:text-xl text-md"
                   href="/Institucional"
                 >
                   Institucional
@@ -81,7 +81,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:mb-0 mb-2 lg:text-2xl text-lg"
+                  className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:mb-0 mb-2 lg:text-xl text-lg"
                   href="/novedades"
                 >
                   Novedades
@@ -93,7 +93,7 @@ const Navbar = () => {
                   (+54 11) 4921-0173
                 </a>
               </li>
-              <li className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:mb-0 mb-2 lg:text-2xl text-lg">
+              <li className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:mb-0 mb-2 lg:text-xl text-lg">
                 <a
                   href=" https://wa.me/5491131879486"
                   className="flex items-center"
@@ -111,4 +111,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-*/

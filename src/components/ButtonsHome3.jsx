@@ -77,7 +77,7 @@ const ButtonsHome = () => {
             className="outline-none focus:outline-none border w-[442px] h-[129px] bg-[#6ab4d2] rounded-2xl flex items-center min-w-32"
           >
             <span className="pr-1 font-semibold flex-1 text-white text-2xl">
-              Cardiología
+              Urología
             </span>
             <span>
               <svg
@@ -96,7 +96,7 @@ const ButtonsHome = () => {
             className="outline-none focus:outline-none border w-[442px] h-[129px] bg-[#6ab4d2] rounded-2xl flex items-center min-w-32"
           >
             <span className="pr-1 font-semibold flex-1 text-white text-2xl">
-              Gastroenterología
+              Cuidados Críticos
             </span>
             <span>
               <svg
@@ -115,7 +115,7 @@ const ButtonsHome = () => {
             className="outline-none focus:outline-none border w-[442px] h-[129px] bg-[#6ab4d2] rounded-2xl flex items-center min-w-32"
           >
             <span className="pr-1 font-semibold flex-1 text-white text-2xl">
-              Intervencionismo
+              Gineco - Reproducción
             </span>
             <span>
               <svg
@@ -287,118 +287,3 @@ const ButtonsHome = () => {
 export default ButtonsHome;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// parte antigua que no se de donde viene //
-/*
-<div 
-            className={`transition-all duration-500 ease-in-out w-screen ${
-              isOpen ? 'max-h-screen' : 'max-h-0'
-            } overflow-hidden absolute left-0 right-0 bg-[#e7e5e5] mt-2`}
-          >
-            <div className="flex flex-col bg-[#e7e5e5] w-full h-auto -mr-96">
-              <div className="flex flex-row justify-evenly ">
-                <div>
-                  <ul>
-                    <Tab title="AGUJAS DE BIOPSIA">
-                      <li key="1" className="pb-2">Agujas de biopsia</li>
-                    </Tab>
-                    <Tab title="INTRODUCTORES VASCULARES">
-                      <li key="4" className="pb-2">Rectos / Curvos</li>
-                      <li key="5" className="pb-2">Contralaterales</li>
-                    </Tab>
-                    <Tab title="GUÍAS ESTÁNDARES / CURVAS">
-                      <li key="7" className="pb-2">Lunderquist</li>
-                      <li key="8" className="pb-2">Amplatz</li>
-                      <li key="9" className="pb-2">Hidrofílicas</li>
-                    </Tab>
-                    <Tab title="BALONES">
-                      <li key="10" className="pb-2">Periféricos</li>
-                      <li key="11" className="pb-2">Elastoméricos</li>
-                    </Tab>
-                  </ul>
-                  </div>
-          
-                <div>
-                  <ul>
-                    <Tab title="CATETERES">
-                      <li key="1" className="pb-2">Periféricos</li>
-                      <li key="2" className="pb-2">Angiográficos</li>
-                    </Tab>
-                    <Tab title="EMBOLACIÓN">
-                      <li key="4" className="pb-2">Estándares</li>
-                      <li key="5" className="pb-2">Desprendibles</li>
-                      <li key="6" className="pb-2">Coil Nester</li>
-                    </Tab>
-                    <Tab title="FILTROS DE VENA CAVA">
-                      <li key="7" className="pb-2">Filtro vena</li>
-                      <li key="8" className="pb-2">Extractor de Filtro</li>
-                      <li key="9" className="pb-2">Celect</li>
-                    </Tab>
-                  </ul>
-                </div>
-                <div>
-                  <ul>
-                    <Tab title="EXTRACCIÓN CAT.MARCAPASOS">
-                      <li key="1" className="pb-2">Estilete fijador</li>
-                      <li key="2" className="pb-2">Vainas plásticas</li>
-                      <li key="3" className="pb-2">Vainas metálicas</li>
-                      <li key="4" className="pb-2">Vaina evolution rotable</li>
-                      <li key="5" className="pb-2">Bull Dog</li>
-                    </Tab>
-                    <Tab title="ENDROPRÓTESIS AÓRTICAS">
-                      <li key="4" className="pb-2">Toracicas</li>
-                      <li key="5" className="pb-2">Abdominales</li>
-                      <li key="6" className="pb-2">T-Branch</li>
-                      <li key="7" className="pb-2">Iliac Branch</li>
-                      <li key="8" className="pb-2">Alta complejidad</li>
-                    </Tab>
-                    <Tab title="STENTS">
-                      <li key="10" className="pb-2">Periféricos con droga</li>
-                      <li key="11" className="pb-2">Venosos</li>
-                    </Tab>
-                    <Tab title="STENTS">
-                      <li key="10" className="pb-2">Periféricos con droga</li>
-                      <li key="11" className="pb-2">Venosos</li>
-                    </Tab>
-                  </ul>
-                </div>
-              </div>
-              <div className="flex flex-row justify-around gap-4 mt-10">
-                <div>
-                  <img src={imagen1} className="w-[333px] h-[185px]" />
-                </div>
-                <div>
-                  <img src={imagen1} className="w-[333px] h-[185px]" />
-                </div>
-                <div>
-                  <img src={imagen1} className="w-[333px] h-[185px]" />
-                </div>
-                <div>
-                  <img src={imagen1} className="w-[333px] h-[185px]" />
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-*/
