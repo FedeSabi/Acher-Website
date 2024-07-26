@@ -39,7 +39,7 @@ const CarouselIcons = () => {
 
   return (
     <>
-    <div className="w-auto m-auto pt-36 pb-10">
+    <div className="w-auto m-auto bg-transparent pt-20 pb-8">
       <Carousel
         responsive={responsive}
         infinite={true}
