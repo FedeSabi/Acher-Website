@@ -57,6 +57,7 @@ const Tab = ({ title, isOpen, onToggle, children }) => {
 const ButtonsHome = () => {
   const [openSection, setOpenSection] = useState(null);
   const [openTab, setOpentab] = useState(null); // nuevo estado de las etiquetas Tab
+  const [selectedButton, setSelectedButton] = useState(null); //estado del boton seleccionado cambia de color
 
   const handleToggle = (section) => {
     setOpenSection(openSection === section ? null : section);
@@ -64,6 +65,10 @@ const ButtonsHome = () => {
 
   const handleTabToggle = (tab) => {
     setOpentab(openTab === tab ? null : tab);
+  };
+
+  const handleButtonClick = (button) =>{
+    setSelectedButton(selectedButton === button ? null : button);
   };
 
   return (
@@ -74,16 +79,19 @@ const ButtonsHome = () => {
         <div className="relative mt-20 flex flex-wrap gap-4 justify-center ">
           {/* Asegurar el flujo de columna y espacio entre los botones */}
           <button
-            onClick={() => handleToggle("cardiología")}
-            className="outline-none focus:outline-none border w-[442px] h-[129px] bg-[#6ab4d2] rounded-2xl flex items-center min-w-32"
+            onClick={() => {
+              handleToggle("cardiología");
+              handleButtonClick("cardiología");
+              }}
+            className={`outline-none focus:outline-none border w-[442px] h-[129px] ${selectedButton === "cardiología" ? "bg-[#2987bc] h-[165px]" : "bg-[#6ab4d2]" } rounded-2xl flex items-center min-w-32`}
           >
             <span className="pr-1 font-semibold flex-1 text-white text-2xl">
               Cardiología
             </span>
             <span>
               <svg
-                className={`fill-current h-4 w-4 transform transition duration-150 ease-in-out mr-6 text-white text-2xl ${
-                  openSection === "cardiologia" ? "-rotate-180" : "rotate-0" //
+                className={`fill-current h-6 w-6 transform transition duration-150 ease-in-out mr-6 text-white text-2xl ${
+                  openSection === "cardiología" ? "-rotate-180" : "rotate-0" //
                 }`}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
@@ -93,15 +101,18 @@ const ButtonsHome = () => {
             </span>
           </button>
           <button
-            onClick={() => handleToggle("gastroenterologia")}
-            className="outline-none focus:outline-none border w-[442px] h-[129px] bg-[#6ab4d2] rounded-2xl flex items-center min-w-32"
+            onClick={() => { 
+              handleToggle("gastroenterologia");
+              handleButtonClick("gastroenterologia");
+              }}
+            className={`outline-none focus:outline-none border w-[442px] h-[129px] ${selectedButton === "gastroenterologia" ? "bg-[#2987bc]  h-[165px]" : "bg-[#6ab4d2]" } rounded-2xl flex items-center min-w-32`}
           >
             <span className="pr-1 font-semibold flex-1 text-white text-2xl">
               Gastroenterología
             </span>
             <span>
               <svg
-                className={`fill-current h-4 w-4 transform transition duration-150 ease-in-out mr-6 text-white text-2xl ${
+                className={`fill-current h-6 w-6 transform transition duration-150 ease-in-out mr-6 text-white text-2xl ${
                   openSection === "gastroenterologia"
                     ? "-rotate-180"
                     : "rotate-0" //
@@ -114,15 +125,18 @@ const ButtonsHome = () => {
             </span>
           </button>
           <button
-            onClick={() => handleToggle("intervencionismo")}
-            className="outline-none focus:outline-none border w-[442px] h-[129px] bg-[#6ab4d2] rounded-2xl flex items-center min-w-32"
+            onClick={() =>{ 
+              handleToggle("intervencionismo");
+              handleButtonClick("intervencionismo")
+              }}
+            className={`outline-none focus:outline-none border w-[442px] h-[129px] ${selectedButton === "intervencionismo" ? "bg-[#2987bc] h-[165px]" : "bg-[#6ab4d2]" } rounded-2xl flex items-center min-w-32`}
           >
             <span className="pr-1 font-semibold flex-1 text-white text-2xl">
               Intervencionismo
             </span>
             <span>
               <svg
-                className={`fill-current h-4 w-4 transform transition duration-150 ease-in-out mr-6 text-white text-2xl ${
+                className={`fill-current h-6 w-6 transform transition duration-150 ease-in-out mr-6 text-white text-2xl ${
                   openSection === "intervencionismo"
                     ? "-rotate-180"
                     : "rotate-0"
@@ -137,11 +151,11 @@ const ButtonsHome = () => {
           <div
             className={`transition-all duration-500 ease-in-out w-screen ${
               openSection ? "max-h-screen" : "max-h-0"
-            } overflow-hidden absolute left-0 right-0 bg-[#e7e5e5] mt-[128px] -ml-[90px]`}
+            } overflow-hidden absolute left-0 right-0 bg-[#e7e5e5] mt-[150px] -ml-[90px]`}
           >
             {/*Inicio cardilogia */}
             {openSection === "cardiología" && (
-              <div className="flex flex-col bg-[#e7e5e5] w-full h-auto pb-20  border-8 border-t-[#6ab4d2]">
+              <div className="flex flex-col bg-[#e7e5e5] w-full h-auto pb-20 border-[15px] border-t-[#2987bc]">
                 <div className="flex flex-row justify-evenly h-auto">
                   <div>
                     <ul>
@@ -327,7 +341,7 @@ const ButtonsHome = () => {
             )}
             {/*Inicio gastroenterologia */}
             {openSection === "gastroenterologia" && (
-              <div className="flex flex-col bg-[#e7e5e5] w-full h-auto pb-20  border-8 border-t-[#6ab4d2]">
+              <div className="flex flex-col bg-[#e7e5e5] w-full h-auto pb-20 border-[15px] border-t-[#2987bc]">
                 <div className="flex flex-row justify-evenly">
                   <div>
                     <ul>
@@ -577,11 +591,12 @@ const ButtonsHome = () => {
             )}
             {/*Inicio intervencionismo */}
             {openSection === "intervencionismo" && (
-              <div className="flex flex-col bg-[#e7e5e5] w-full h-auto pb-20  border-8 border-t-[#6ab4d2]">
+              <div className="flex flex-col bg-[#e7e5e5] w-full h-auto pb-20  border-[15px] border-t-[#2987bc]">
                 <div className="flex flex-row justify-evenly">
                   <div>
                     <ul>
                       <Tab
+
                         title="DRENAJES"
                         isOpen={openTab === "DRENAJES"}
                         onToggle={() => handleTabToggle("DRENAJES")}
@@ -701,6 +716,7 @@ const ButtonsHome = () => {
           </div>
         </div>
         {/* Ajuste del contenedor 2 */}
+        
         <div className="relative mt-20 flex flex-wrap gap-4 justify-center ">
           {/* Asegurar el flujo de columna y espacio entre los botones */}
           <button
