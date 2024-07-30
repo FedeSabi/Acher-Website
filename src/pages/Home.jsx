@@ -4,22 +4,17 @@ import CarouselIcons from "../components/CauroselIcons";
 
 const Home = () => {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <CarouselHome />
-      <div className="h-screen">
-        <div className="flex flex-col justify-center items-center h-[62px] w-auto">
-          <h1 className="text-6xl text-[#6ab4d2]">Especialidades Médicas</h1>
-        </div>
-        <div>
-          <div className="flex flex-row justify-evenly gap-5">
-            <ButtonsHome2 />
-          </div> 
-          </div>
-        </div>
-  <div className="mt-52">
-          <CarouselIcons />
-        </div>
-
+      <div className="flex flex-col justify-center items-center w-auto mt-4 mb-8">
+        <h1 className="text-6xl text-[#6ab4d2]">Especialidades Médicas</h1>
+      </div>
+      <div className="flex-grow flex flex-col items-center">
+        <ButtonsHome2 />
+      </div>
+      {/* <div>
+        <CarouselIcons/>
+      </div>*/}
     </div>
   );
 };

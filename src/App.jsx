@@ -11,11 +11,12 @@ import Representaciones from "./pages/Representaciones";
 function App() {
   return (
     <Router>
+     <div className="flex flex-col min-h-screen">
       <Navbar />
+      <main className="flex-grow">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Institucional" element={<Institucional />} />
-        <Route path="/buttonHome2" element={<ButtonsHome2 />} />
         <Route
           path="/especialidadesMedicas"
           element={<EspecialidadesMedicas />}
@@ -23,7 +24,9 @@ function App() {
         <Route path="/novedades" element={<Novedades />} />
         <Route path="/Representaciones" element={<Representaciones />} />
       </Routes>
+      </main>
       <Footer />
+      </div>
     </Router>
   );
 }
