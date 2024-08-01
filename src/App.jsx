@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Footer from "./components/Footer";
+import Footer2 from "./components/Footer2"
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import ButtonsHome2 from "./components/ButtonsHome2";
@@ -22,7 +22,7 @@ function App() {
         <Route path="/novedades" element={<Novedades />} />
         <Route path="/Representaciones" element={<Representaciones />} />
       </Routes>
-      <Footer /> 
+      <Footer2 /> 
     </Router>
   );
 }
