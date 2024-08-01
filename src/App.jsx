@@ -11,9 +11,7 @@ import Representaciones from "./pages/Representaciones";
 function App() {
   return (
     <Router>
-     <div className="flex flex-col min-h-screen">
       <Navbar />
-      <main className="flex-grow">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Institucional" element={<Institucional />} />
@@ -24,9 +22,7 @@ function App() {
         <Route path="/novedades" element={<Novedades />} />
         <Route path="/Representaciones" element={<Representaciones />} />
       </Routes>
-      </main>
-      <Footer />
-      </div>
+      <Footer /> 
     </Router>
   );
 }

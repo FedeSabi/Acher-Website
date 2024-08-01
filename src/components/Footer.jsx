@@ -6,7 +6,8 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-200 h-[380px] dark:bg-gray-800 mt-20 pt-4 pb-8 xl:pt-8">
+    <div className="flex items-end w-full pt-60 "> {/*se agrego mt- 400 al contenedor footer mejoro pero falta */}
+    <footer className="flex flex-col w-full bg-gray-200 h-[380px] dark:bg-gray-800 pt-4 pb-8 xl:pt-8">{/*se agrego flex y flex-col  */}
       <div className="max-w-screen-lg px-4 mx-auto text-gray-200 xl:max-w-screen-xl sm:px-6 md:px-8 dark:text-gray-300 gap-6">
         <div className="flex flex-col justify-between items-center bg-gray-200">
           <button className="sm:w-[442px] w-[324px] h-[120px] -mt-24  mb-6 bg-gray-200 lg:text-5xl text-2xl rounded-2xl text-gray-600">
@@ -58,6 +59,7 @@ const Footer = () => {
         <p>acher.com.ar todos los derechos reservados</p>
       </div>
     </footer>
+    </div>
   );
 };
 export default Footer;
