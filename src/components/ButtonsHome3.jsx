@@ -157,7 +157,7 @@ const ButtonsHome3 = () => {
           </button>
           <div
             className={`transition-all duration-500 ease-in-out w-screen ${
-              openSection ? "max-h-screen" : "max-h-0"
+              openSection ? "max-h-[900px]" : "max-h-0"
             } overflow-hidden absolute left-0 right-0 bg-[#e7e5e5] mt-[150px] -ml-[90px]`}
           >
             {/* inicio urologia */}

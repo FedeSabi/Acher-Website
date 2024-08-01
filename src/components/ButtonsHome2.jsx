@@ -158,7 +158,7 @@ const ButtonsHome2 = () => {
           </button>
           <div
             className={`transition-all duration-500 ease-in-out w-screen ${
-              openSection ? "max-h-screen" : "max-h-0"
+              openSection ? "max-h-[900px]" : "max-h-0"
             } overflow-hidden absolute left-0 right-0 bg-[#e7e5e5] mt-[150px] -ml-[90px]`}
           >
             {/*Inicio cardilogia */}
@@ -347,8 +347,8 @@ const ButtonsHome2 = () => {
             )}
             {/*Inicio gastroenterologia */}
             {openSection === "gastroenterologia" && (
-              <div className="flex flex-col w-full h-auto pb-20 z-50 bg-[#e7e5e5] border-t-[15px] border-t-[#2987bc]">
-                <div className="flex flex-row justify-evenly z-50 bg-[#e7e5e5]">
+              <div className="flex flex-col w-full h-full pb-20 z-50 bg-[#e7e5e5] border-t-[15px] border-t-[#2987bc]">
+                <div className="flex flex-row justify-evenly h-auto z-50 bg-[#e7e5e5]">
                   <div>
                     <ul>
                       <Tab

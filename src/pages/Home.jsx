@@ -18,15 +18,16 @@ const Home = () => {
   }
   
   return (
-    <div className="flex flex-col">
+    <div>
+    <div className="flex flex-col justify-evenly">
       <CarouselHome />
       <div className="flex flex-col justify-center items-center w-auto mt-4 mb-8">
         <h1 className="sm:text-6xl text-3xl text-[#6ab4d2]">
           Especialidades Médicas
         </h1>
       </div>
-      <div className="flex flex-col items-center mb-8">
-        <div className="w-full">
+      <div className="flex flex-col items-center mb-8 h-auto">
+        <div className="w-full ">
           <ButtonsHome2 
           isOpen={openComponent === 'ButtonsHome2'}
           handleToggle={() => handleToggle('ButtonsHome2')} />
@@ -35,12 +36,13 @@ const Home = () => {
             <ButtonsHome3 />
           </div>
       </div>    
-       <div className="flex-shrink-0 p-20">
+       <div className="">
         <CarouselIcons 
           isOpen={openComponent === 'ButtonsHome3'}
           handleToggle={() => handleToggle(ButtonsHome3)}
         />
       </div>
+    </div>
     </div>
   );
 };
