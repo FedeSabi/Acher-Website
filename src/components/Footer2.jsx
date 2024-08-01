@@ -16,7 +16,7 @@ function Footer2() {
           <div className="flex mt-8 space-x-4 justify-center mr-16 text-blue-500">
             <a
               className="hover:opacity-75"
-              href=""
+              href="https://www.facebook.com/p/Acher-Argentina-100063685132897/"
               target="_blank"
               rel="noreferrer"
             >
@@ -36,7 +36,7 @@ function Footer2() {
             </a>
             <a
               className="hover:opacity-75"
-              href=""
+              href="https://www.instagram.com/acherargentina/"
               target="_blank"
               rel="noreferrer"
             >
@@ -57,7 +57,7 @@ function Footer2() {
 
             <a
                   className="hover:opacity-75"
-                  href=""
+                  href="https://www.google.com/maps/place/Doblas+1510,+C1424BMF+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/@-34.634307,-58.4301724,17z/data=!3m1!4b1!4m6!3m5!1s0x95bccbad935c5e6d:0x6e52fc7da6df63ce!8m2!3d-34.6343114!4d-58.4275975!16s%2Fg%2F11c2542gqz?entry=ttu"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -73,7 +73,7 @@ function Footer2() {
                 </a>
                 <a
                   className="hover:opacity-75"
-                  href=""
+                  href="mailto:info@b-acher.com.ar"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -92,7 +92,7 @@ function Footer2() {
         <div className="grid grid-cols-1 gap-10 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-3 mt-[53px]">
           <div>
             <a 
-            href="/especialidades-medicas"
+            href="/especialidadesMedicas"
             className="text-lg text-gray-600">Especialidades Médicas</a>
           </div>
           <div>

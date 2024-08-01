@@ -91,7 +91,7 @@ const ButtonsHome2 = () => {
               handleToggle("cardiología");
               handleButtonClick("cardiología");
               }}
-            className={`outline-none focus:outline-none border w-[442px] h-[129px] ${selectedButton === "cardiología" ? "bg-[#2987bc] h-[165px]" : "bg-[#6ab4d2]" } rounded-2xl flex items-center min-w-32`}
+            className={`outline-none focus:outline-none border w-[442px] h-[129px] ${selectedButton === "cardiología" ? "bg-[#2987bc] h-[165px] " : "bg-[#6ab4d2]" } rounded-2xl flex items-center min-w-32`}
           >
             <span className="pr-1 font-semibold flex-1 text-white text-2xl">
               Cardiología
@@ -113,7 +113,7 @@ const ButtonsHome2 = () => {
               handleToggle("gastroenterologia");
               handleButtonClick("gastroenterologia");
               }}
-            className={`outline-none focus:outline-none border w-[442px] h-[129px] ${selectedButton === "gastroenterologia" ? "bg-[#2987bc]  h-[165px]" : "bg-[#6ab4d2]" } rounded-2xl flex items-center min-w-32`}
+            className={`outline-none focus:outline-none border w-[442px] h-[129px] ${selectedButton === "gastroenterologia" ? "bg-[#2987bc] h-[165px]" : "bg-[#6ab4d2]" } rounded-2xl flex items-center min-w-32`}
           >
             <span className="pr-1 font-semibold flex-1 text-white text-2xl">
               Gastroenterología
