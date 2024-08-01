@@ -29,28 +29,28 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-blue-100 sm:h-[120px] h-[520px] flex sm:flex-row flex-col items-center justify-around w-full border-t-4 border-t-white mt-10 font-semibold text-gray-600">
+      <div className="bg-blue-100 sm:h-[190px] h-[520px] flex sm:flex-row flex-col items-center justify-around w-full border-t-4 border-t-white mt-10 sm:gap-0 pt-6 pb-6 gap-6 font-semibold text-gray-600">
         <div>
           <a href="#" className="flex items-center gap-4">
-            <FaPhone className="mr-2 text-blue-500 sm:text-5xl text-3xl" />
+            <FaPhone className="mr-2 text-blue-500 sm:text-4xl text-2xl" />
             <p className="text-xl">(+54 11) 4921-0173</p>
           </a>
         </div>
         <div>
           <a href="#" className="flex items-center gap-4">
-            <IoMail className="mr-2 text-blue-500 sm:text-5xl text-3xl" />
+            <IoMail className="mr-2 text-blue-500 sm:text-4xl text-2xl" />
             <p className="text-xl">info@b-archer.com.ar</p>
           </a>
         </div>
         <div>
           <a href="#" className="flex items-center gap-4">
-            <FaInstagram className="mr-2 text-blue-500 sm:text-5xl text-3xl" />
+            <FaInstagram className="mr-2 text-blue-500 sm:text-4xl text-2xl" />
             <p className="text-xl">acherargentina</p>
           </a>
         </div>
         <div>
           <a href="#" className="flex items-center gap-4">
-            <FaFacebookSquare className="mr-2 text-blue-500 sm:text-5xl text-3xl" />
+            <FaFacebookSquare className="mr-2 text-blue-500 sm:text-4xl text-2xl" />
             <p className="text-xl">acherargentina</p>
           </a>
         </div>
