@@ -1,5 +1,5 @@
 import logo from "../assets/Acher_logo.png"
-
+import { Link } from "react-router-dom"
 
 function Footer2() {
   return (
@@ -14,9 +14,9 @@ function Footer2() {
           Acher Argentina - Doblas 1510 - CABA
           </p>
           <div className="flex mt-8 space-x-4 justify-center mr-16 text-blue-500">
-            <a
+            <Link
               className="hover:opacity-75"
-              href="https://www.facebook.com/p/Acher-Argentina-100063685132897/"
+              to="https://www.facebook.com/p/Acher-Argentina-100063685132897/"
               target="_blank"
               rel="noreferrer"
             >
@@ -33,10 +33,10 @@ function Footer2() {
                   cliprule="evenodd"
                 />
               </svg>
-            </a>
-            <a
+            </Link>
+            <Link
               className="hover:opacity-75"
-              href="https://www.instagram.com/acherargentina/"
+              to="https://www.instagram.com/acherargentina/"
               target="_blank"
               rel="noreferrer"
             >
@@ -53,11 +53,11 @@ function Footer2() {
                   cliprule="evenodd"
                 />
               </svg>
-            </a>
+            </Link>
 
-            <a
+            <Link
                   className="hover:opacity-75"
-                  href="https://www.google.com/maps/place/Doblas+1510,+C1424BMF+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/@-34.634307,-58.4301724,17z/data=!3m1!4b1!4m6!3m5!1s0x95bccbad935c5e6d:0x6e52fc7da6df63ce!8m2!3d-34.6343114!4d-58.4275975!16s%2Fg%2F11c2542gqz?entry=ttu"
+                  to="https://www.google.com/maps/place/Doblas+1510,+C1424BMF+Cdad.+Aut%C3%B3noma+de+Buenos+Aires/@-34.634307,-58.4301724,17z/data=!3m1!4b1!4m6!3m5!1s0x95bccbad935c5e6d:0x6e52fc7da6df63ce!8m2!3d-34.6343114!4d-58.4275975!16s%2Fg%2F11c2542gqz?entry=ttu"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -70,10 +70,10 @@ function Footer2() {
                   >
                     <path d="M12 2C8.13401 2 5 5.13401 5 9C5 13.25 12 22 12 22C12 22 19 13.25 19 9C19 5.13401 15.866 2 12 2ZM12 11.5C10.6193 11.5 9.5 10.3807 9.5 9C9.5 7.61929 10.6193 6.5 12 6.5C13.3807 6.5 14.5 7.61929 14.5 9C14.5 10.3807 13.3807 11.5 12 11.5Z" />
                   </svg>
-                </a>
-                <a
+                </Link>
+                <Link
                   className="hover:opacity-75"
-                  href="mailto:info@b-acher.com.ar"
+                  to="mailto:info@b-acher.com.ar"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -86,25 +86,25 @@ function Footer2() {
                   >
                     <path d="M12 13.065l-11.176-6.245v11.934c0 1.117.906 2.023 2.023 2.023h18.306c1.117 0 2.023-.906 2.023-2.023v-11.934l-11.176 6.245zm0-1.766l10.677-5.97h-21.354l10.677 5.97z" />
                   </svg>
-                </a>
+                </Link>
           </div>
         </div>
         <div className="grid grid-cols-1 gap-10 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-3 mt-[53px]">
           <div>
-            <a 
-            href="/especialidadesMedicas"
-            className="text-lg text-gray-600">Especialidades Médicas</a>
+            <Link 
+            to="/especialidadesMedicas"
+            className="text-lg text-gray-600">Especialidades Médicas</Link>
           </div>
           <div>
-            <a 
-            href="/representaciones"
-            className="text-lg text-gray-600">Representaciones</a>
+            <Link 
+            to="/representaciones"
+            className="text-lg text-gray-600">Representaciones</Link>
             
           </div>
           <div>
-            <a 
-            href="/institucional"
-            className="text-lg text-gray-600">Institucional</a>
+            <Link 
+            to="/institucional"
+            className="text-lg text-gray-600">Institucional</Link>
           </div>
         </div>
       </div>
