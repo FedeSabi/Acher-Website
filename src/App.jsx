@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import ButtonsHome2 from "./components/ButtonsHome2";
 import Institucional from "./pages/Institucional";
 import EspecialidadesMedicas from "./pages/EspecialidadesMedicas";
-import Novedades from "./pages/Novedades";
 import Representaciones from "./pages/Representaciones";
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
           path="/especialidadesMedicas"
           element={<EspecialidadesMedicas />}
         />
-        <Route path="/novedades" element={<Novedades />} />
         <Route path="/Representaciones" element={<Representaciones />} />
       </Routes>
       <Footer2 /> 

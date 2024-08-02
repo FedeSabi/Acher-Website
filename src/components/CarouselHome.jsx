@@ -2,6 +2,7 @@
 import ImageGallery from 'react-image-gallery';
 import ImgHome1 from '../assets/Img _ carrusel 1550x509-1.png';
 import ImgHome2 from '../assets/Img _ carrusel 1550x509-2.png';
+import ImgHome3 from '../assets/Img _ carrusel 1550x509-3.png'
 
 import 'react-image-gallery/styles/css/image-gallery.css';
 
@@ -12,6 +13,9 @@ const CarouselHome = () => {
     },
     {
       original: ImgHome2,
+    },
+    {
+      original: ImgHome3,
     },
   ];
 

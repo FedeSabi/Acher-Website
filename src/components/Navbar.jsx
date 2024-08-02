@@ -177,7 +177,6 @@ const Navbar = () => {
               },
               { label: "Representaciones", href: "/representaciones" },
               { label: "Institucional", href: "/Institucional" },
-              { label: "Novedades", href: "/novedades" },
             ].map(({ label, href }, index) => (
               <li
                 key={index}

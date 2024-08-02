@@ -91,9 +91,9 @@ const ButtonsHome2 = () => {
               handleToggle("cardiología");
               handleButtonClick("cardiología");
               }}
-            className={`outline-none focus:outline-none border w-[442px] h-[129px] ${selectedButton === "cardiología" ? "bg-[#2987bc] h-[165px] " : "bg-[#6ab4d2]" } rounded-2xl flex items-center min-w-32`}
+            className={`outline-none focus:outline-none border sm:w-[442px] w-[320px] sm:h-[129px] h-[90px] ${selectedButton === "cardiología" ? "bg-[#2987bc] sm:h-[165px] " : "bg-[#6ab4d2]" } rounded-2xl flex items-center min-w-32`}
           >
-            <span className="pr-1 font-semibold flex-1 text-white text-2xl">
+            <span className="pr-1 font-semibold flex-1 text-white text-lg sm:text-2xl">
               Cardiología
             </span>
             <span>
@@ -113,9 +113,9 @@ const ButtonsHome2 = () => {
               handleToggle("gastroenterologia");
               handleButtonClick("gastroenterologia");
               }}
-            className={`outline-none focus:outline-none border w-[442px] h-[129px] ${selectedButton === "gastroenterologia" ? "bg-[#2987bc] h-[165px]" : "bg-[#6ab4d2]" } rounded-2xl flex items-center min-w-32`}
+            className={`outline-none focus:outline-none border sm:w-[442px] w-[320px] sm:h-[129px] h-[90px] ${selectedButton === "gastroenterologia" ? "bg-[#2987bc] h-[165px]" : "bg-[#6ab4d2]" } rounded-2xl flex items-center min-w-32`}
           >
-            <span className="pr-1 font-semibold flex-1 text-white text-2xl">
+            <span className="pr-1 font-semibold flex-1 text-white sm:text-2xl text-lg">
               Gastroenterología
             </span>
             <span>
@@ -137,9 +137,9 @@ const ButtonsHome2 = () => {
               handleToggle("intervencionismo");
               handleButtonClick("intervencionismo")
               }}
-            className={`outline-none focus:outline-none border w-[442px] h-[129px] ${selectedButton === "intervencionismo" ? "bg-[#2987bc] h-[165px]" : "bg-[#6ab4d2]" } rounded-2xl flex items-center min-w-32`}
+            className={`outline-none focus:outline-none border sm:w-[442px] w-[320px] sm:h-[129px] h-[90px] ${selectedButton === "intervencionismo" ? "bg-[#2987bc] sm:h-[165px]" : "bg-[#6ab4d2]" } rounded-2xl flex items-center min-w-32`}
           >
-            <span className="pr-1 font-semibold flex-1 text-white text-2xl">
+            <span className="pr-1 font-semibold flex-1 text-white sm:text-2xl text-lg">
               Intervencionismo
             </span>
             <span>
@@ -159,12 +159,12 @@ const ButtonsHome2 = () => {
           <div
             className={`transition-all duration-500 ease-in-out w-screen ${
               openSection ? "max-h-[900px]" : "max-h-0"
-            } overflow-hidden absolute left-0 right-0 bg-[#e7e5e5] mt-[150px] -ml-[90px]`}
+            } overflow-hidden absolute left-0 right-0 bg-[#e7e5e5] sm:mt-[150px] mt-0 sm:-ml-[90px] -ml-0`}
           >
             {/*Inicio cardilogia */}
             {openSection === "cardiología" && (
               <div className="flex flex-col  w-full h-auto min-h-[100vh] pb-20 z-50 bg-[#e7e5e5]  border-t-[15px] border-t-[#2987bc]">
-                <div className="flex flex-row justify-evenly h-auto z-50 bg-[#e7e5e5]">
+                <div className="flex sm:flex-row flex-col justify-evenly h-auto z-50 bg-[#e7e5e5]">
                   <div>
                     <ul>
                       <Tab
