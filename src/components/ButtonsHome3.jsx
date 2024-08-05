@@ -90,7 +90,7 @@ const ButtonsHome3 = () => {
             onClick={() => {
               handleToggle("urologia");
               handleButtonClick("urologia")}}
-            className={`outline-none focus:outline-none border sm:w-[442px] w-[320px] sm:h-[129px] h-[90px] ${selectedButton === "urologia" ? "bg-[#2987bc] h-[165px]" : "bg-[#6ab4d2]"} rounded-2xl flex items-center min-w-32`}
+            className={`outline-none focus:outline-none border sm:w-[442px] w-[320px] sm:h-[129px] h-[90px] ${selectedButton === "urologia" ? "bg-[#2987bc] sm:h-[165px]" : "bg-[#6ab4d2]"} rounded-2xl flex items-center min-w-32`}
           >
             <span className="pr-1 font-semibold flex-1 text-white sm:text-2xl text-lg">
               Urología
@@ -112,7 +112,7 @@ const ButtonsHome3 = () => {
               handleToggle("Cuidados Críticos");
               handleButtonClick("Cuidados Críticos");
             }}
-            className={`outline-none focus:outline-none border sm:w-[442px] w-[320px] sm:h-[129px] h-[90px] ${selectedButton === "Cuidados Críticos" ? "bg-[#2987bc] h-[165px]" : "bg-[#6ab4d2]"} rounded-2xl flex items-center min-w-32`}
+            className={`outline-none focus:outline-none border sm:w-[442px] w-[320px] sm:h-[129px] h-[90px] ${selectedButton === "Cuidados Críticos" ? "bg-[#2987bc] sm:h-[165px]" : "bg-[#6ab4d2]"} rounded-2xl flex items-center min-w-32`}
           >
             <span className="pr-1 font-semibold flex-1 text-white sm:text-2xl text-lg">
               Cuidados Críticos
@@ -136,7 +136,7 @@ const ButtonsHome3 = () => {
               handleToggle("Gineco - Reproducción");
               handleButtonClick("Gineco - Reproducción");
               }}
-            className={`outline-none focus:outline-none border sm:w-[442px] w-[320px] sm:h-[129px] h-[90px] ${selectedButton === "Gineco - Reproducción"  ? "bg-[#2987bc] h-[165px]" : "bg-[#6ab4d2]"} rounded-2xl flex items-center min-w-32`}
+            className={`outline-none focus:outline-none border sm:w-[442px] w-[320px] sm:h-[129px] h-[90px] ${selectedButton === "Gineco - Reproducción"  ? "bg-[#2987bc] sm:h-[165px]" : "bg-[#6ab4d2]"} rounded-2xl flex items-center min-w-32`}
           >
             <span className="pr-1 font-semibold flex-1 text-white sm:text-2xl text-lg">
               Gineco - Reproducción

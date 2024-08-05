@@ -113,7 +113,7 @@ const ButtonsHome2 = () => {
               handleToggle("gastroenterologia");
               handleButtonClick("gastroenterologia");
               }}
-            className={`outline-none focus:outline-none border sm:w-[442px] w-[320px] sm:h-[129px] h-[90px] ${selectedButton === "gastroenterologia" ? "bg-[#2987bc] h-[165px]" : "bg-[#6ab4d2]" } rounded-2xl flex items-center min-w-32`}
+            className={`outline-none focus:outline-none border sm:w-[442px] w-[320px] sm:h-[129px] h-[90px] ${selectedButton === "gastroenterologia" ? "bg-[#2987bc] sm:h-[165px]" : "bg-[#6ab4d2]" } rounded-2xl flex items-center min-w-32`}
           >
             <span className="pr-1 font-semibold flex-1 text-white sm:text-2xl text-lg">
               Gastroenterología
