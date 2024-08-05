@@ -66,18 +66,18 @@ const Navbar = () => {
             ].map(({ label, to }, index) => (
               <li
                 key={index}
-                className="p-2 lg:p-4 block border-b-2 border-transparent hover:border-indigo-400 lg:text-xl text-lg transition duration-300"
+                className="p-2 lg:p-4 block border-b-2 border-transparent hover:border-indigo-400 xl:text-xl lg:text-md md:text-lg transition duration-300"
               >
                 <Link to={to}>{label}</Link>
               </li>
             ))}
-            <li className="p-2 lg:p-4 block border-b-2 border-transparent hover:border-indigo-400 lg:text-xl text-lg transition duration-300">
+            <li className="p-2 lg:p-4 block border-b-2 border-transparent hover:border-indigo-400 xl:text-xl lg:text-md md:text-lg transition duration-300">
               <Link to="#" className="flex items-center">
                 <FaPhone className="mr-2" />
                 (+54 11) 4921-0173
               </Link>
             </li>
-            <li className="p-2 lg:p-4 block border-b-2 border-transparent hover:border-indigo-400 lg:text-xl text-lg transition duration-300">
+            <li className="p-2 lg:p-4 block border-b-2 border-transparent hover:border-indigo-400 xl:text-xl lg:text-md md:text-lg transition duration-300">
               <Link
                 to="https://wa.me/5491131879486"
                 className="flex items-center"
