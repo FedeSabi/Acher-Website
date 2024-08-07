@@ -26,7 +26,7 @@ const Tab = ({ title, isOpen, onToggle, children }) => {
           }`}
           onClick={onToggle}
         >
-          <span className="text-grey-darkest font-thin text-xl">{title}</span>
+          <span className="font-roboto font-medium text-[#58595b]  sm:text-xl text-md">{title}</span>
           <div
             className={`rounded-full border border-grey w-7 h-7 flex items-center justify-center ${
               isOpen ? "bg-[#2987bc]" : ""
