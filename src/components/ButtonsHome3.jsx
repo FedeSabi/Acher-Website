@@ -81,7 +81,7 @@ const ButtonsHome3 = () => {
 
   return (
     <div>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-wrap justify-center items-center gap-4">
         {" "}
         {/* Ajuste del contenedor 2 */}  
         <div className="relative mt-10 flex flex-wrap gap-4 justify-center ">
@@ -158,12 +158,12 @@ const ButtonsHome3 = () => {
           <div
             className={`transition-all duration-500 ease-in-out w-screen ${
               openSection ? "max-h-[900px]" : "max-h-0"
-            } overflow-hidden absolute left-0 right-0 bg-[#e7e5e5] mt-[150px] -ml-[90px]`}
+            } overflow-hidden absolute left-0 right-0 bg-[#e7e5e5] sm:mt-[150px] mt-0 sm:-ml-[0px] md:-ml-[0px] lg:-ml-[0px] xl:-ml-[90px]`}
           >
             {/* inicio urologia */}
             {openSection === "urologia" && (
-              <div className="flex flex-col w-full h-auto pb-20  z-50 bg-[#e7e5e5] border-t-[15px] border-t-[#2987bc]">
-                <div className="flex flex-row justify-evenly z-50 bg-[#e7e5e5]">
+              <div className="flex flex-col  w-full h-auto min-h-[150vh] sm:pb-20 pb-0 z-50 bg-[#e7e5e5] border-t-[15px] border-t-[#2987bc] ">
+                <div className="flex flex-col sm:flex-col lg:flex-row justify-evenly sm:h-auto z-50 bg-[#e7e5e5]">
                   <div>
                     <ul>
                       <Tab
@@ -375,8 +375,8 @@ const ButtonsHome3 = () => {
             )}
             {/* cuidados criticos */}
             {openSection === "Cuidados Críticos" && (
-              <div className="flex flex-col bg-[#e7e5e5] w-full h-auto min-h-[100vh] pb-20 z-50 border-t-[15px] border-t-[#2987bc]">
-                <div className="flex flex-row justify-evenly z-50 bg-[#e7e5e5]">
+              <div className="flex flex-col  w-full h-auto min-h-[150vh] sm:pb-20 pb-0 z-50 bg-[#e7e5e5] border-t-[15px] border-t-[#2987bc] ">
+                <div className="flex flex-col sm:flex-col lg:flex-row justify-evenly sm:h-auto z-50 bg-[#e7e5e5]">
                   <div>
                     <ul>
                       <Tab
@@ -550,8 +550,8 @@ const ButtonsHome3 = () => {
             )}
             {/* inicio gineco - reproduccion */}
             {openSection === "Gineco - Reproducción" && (
-              <div className="flex flex-col w-full h-auto min-h-[100vh] pb-20 z-50 bg-[#e7e5e5]  border-t-[15px] border-t-[#2987bc]">
-                <div className="flex flex-row justify-evenly z-50 bg-[#e7e5e5] ">
+              <div className="flex flex-col  w-full h-auto min-h-[150vh] sm:pb-20 pb-0 z-50 bg-[#e7e5e5] border-t-[15px] border-t-[#2987bc] ">
+              <div className="flex flex-col sm:flex-col lg:flex-row justify-evenly sm:h-auto z-50 bg-[#e7e5e5]">
                   <div >
                     <ul>
                       <Tab
