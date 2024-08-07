@@ -92,7 +92,7 @@ const ButtonsHome3 = () => {
               handleButtonClick("urologia")}}
             className={`outline-none focus:outline-none border sm:w-[442px] w-[320px] sm:h-[129px] h-[90px] ${selectedButton === "urologia" ? "bg-[#2987bc] sm:h-[165px]" : "bg-[#6ab4d2]"} rounded-2xl flex items-center min-w-32`}
           >
-            <span className="pr-1 font-semibold flex-1 text-white sm:text-2xl text-lg">
+            <span className="pr-1 font-semibold flex-1 ml-8 text-white sm:text-2xl text-lg">
               Urología
             </span>
             <span>
@@ -114,7 +114,7 @@ const ButtonsHome3 = () => {
             }}
             className={`outline-none focus:outline-none border sm:w-[442px] w-[320px] sm:h-[129px] h-[90px] ${selectedButton === "Cuidados Críticos" ? "bg-[#2987bc] sm:h-[165px]" : "bg-[#6ab4d2]"} rounded-2xl flex items-center min-w-32`}
           >
-            <span className="pr-1 font-semibold flex-1 text-white sm:text-2xl text-lg">
+            <span className="pr-1 font-semibold flex-1 ml-8 text-white sm:text-2xl text-lg">
               Cuidados Críticos
             </span>
             <span>
@@ -138,7 +138,7 @@ const ButtonsHome3 = () => {
               }}
             className={`outline-none focus:outline-none border sm:w-[442px] w-[320px] sm:h-[129px] h-[90px] ${selectedButton === "Gineco - Reproducción"  ? "bg-[#2987bc] sm:h-[165px]" : "bg-[#6ab4d2]"} rounded-2xl flex items-center min-w-32`}
           >
-            <span className="pr-1 font-semibold flex-1 text-white sm:text-2xl text-lg">
+            <span className="pr-1 font-semibold flex-1 ml-8 text-white sm:text-2xl text-lg">
               Gineco - Reproducción
             </span>
             <span>
@@ -158,7 +158,7 @@ const ButtonsHome3 = () => {
           <div
             className={`transition-all duration-500 ease-in-out w-screen ${
               openSection ? "max-h-[1050px]" : "max-h-0"
-            } overflow-hidden absolute left-0 right-0 bg-[#e7e5e5] sm:mt-[150px] mt-80 sm:-ml-[0px] md:-ml-[0px] lg:-ml-[0px] xl:-ml-[0px] 2xl:-ml-[200px]`}
+            } overflow-hidden absolute left-0 right-0 bg-[#e7e5e5] sm:mt-[150px] mt-80 sm:-ml-[0px] md:-ml-[0px] lg:-ml-[0px] xl:-ml-[90px] `}
           >
             {/* inicio urologia */}
             {openSection === "urologia" && (
