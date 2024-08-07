@@ -18,7 +18,7 @@ const Home = () => {
   }
   
   return (
-    <div className='bg-[#E6F2F8] ml-6'>
+    <div>
     <div className="flex flex-col justify-evenly">
       <CarouselHome />
       <div className="flex flex-col justify-center items-center w-auto mb-8">
