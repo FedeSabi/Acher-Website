@@ -26,7 +26,7 @@ const Home = () => {
           Especialidades Médicas
         </h1>
       </div>
-      <div className="flex flex-col items-center mb-8 h-auto">
+      <div className="flex flex-col items-center mb-8 h-auto sm:-mt-20">
         <div className="w-full ">
           <ButtonsHome2 
           isOpen={openComponent === 'ButtonsHome2'}
