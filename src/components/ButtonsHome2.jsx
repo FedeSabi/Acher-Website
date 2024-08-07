@@ -159,7 +159,7 @@ const ButtonsHome2 = () => {
           <div
             className={`transition-all duration-500 ease-in-out w-screencommi ${
               openSection ? "max-h-[1200px]" : "max-h-0"
-            } overflow-hidden absolute left-0 right-0 bg-[#e7e5e5] sm:mt-[150px] mt-80 sm:-ml-[0px] md:-ml-[0px] lg:-ml-[0px] xl:-ml-[0px] 2xl:-ml-[200px] `}
+            } overflow-hidden absolute left-0 right-0 bg-[#e7e5e5] sm:mt-[150px] mt-80 sm:-ml-[0px] md:-ml-[0px] lg:-ml-[0px] xl:-ml-[0px] 2xl:-ml-[140px] `}
           >
             {/*Inicio cardilogia */}
             {openSection === "cardiología" && (
