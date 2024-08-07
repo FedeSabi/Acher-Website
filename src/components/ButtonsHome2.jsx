@@ -81,17 +81,17 @@ const ButtonsHome2 = () => {
 
   return (
     <div>
-      <div className="flex flex-wrap justify-center items-center mt-20 gap-4">
+      <div className="flex flex-wrap justify-center items-center sm:mt-20  gap-4">
         {" "}
         {/* Ajuste del contenedor 1 */}
-        <div className="relative mt-20 flex flex-wrap gap-4 justify-center ">
+        <div className="relative sm:mt-20  flex flex-wrap gap-4 justify-center ">
           {/* Asegurar el flujo de columna y espacio entre los botones */}
           <button
             onClick={() => {
               handleToggle("cardiología");
               handleButtonClick("cardiología");
               }}
-            className={`outline-none focus:outline-none border sm:w-[442px] w-[320px] sm:h-[129px] h-[90px] ${selectedButton === "cardiología" ? "bg-[#2987bc] sm:h-[165px]" : "bg-[#6ab4d2]" } rounded-2xl flex items-center min-w-32`}
+            className={`outline-none focus:outline-none border sm:w-[442px] w-[320px] sm:h-[129px] h-[90px] ${selectedButton === "cardiología" ? "bg-[#2987bc] sm:h-[165px]" : "bg-[#6ab4d2]" } rounded-2xl flex items-center `}
           >
             <span className="pr-1 font-semibold flex-1 text-white text-lg sm:text-2xl">
               Cardiología
@@ -159,11 +159,11 @@ const ButtonsHome2 = () => {
           <div
             className={`transition-all duration-500 ease-in-out w-screen ${
               openSection ? "max-h-[900px]" : "max-h-0"
-            } overflow-hidden absolute left-0 right-0 bg-[#e7e5e5] sm:mt-[150px] mt-0 sm:-ml-[0px] md:-ml-[0px] lg:-ml-[0px] xl:-ml-[90px]`}
+            } overflow-hidden absolute left-0 right-0 bg-[#e7e5e5] sm:mt-[150px] mt-80 sm:-ml-[0px] md:-ml-[0px] lg:-ml-[0px] xl:-ml-[90px]`}
           >
             {/*Inicio cardilogia */}
             {openSection === "cardiología" && (
-              <div className="flex flex-col  w-full h-auto min-h-[150vh] sm:pb-20 pb-0 z-50 bg-[#e7e5e5] border-t-[15px] border-t-[#2987bc] ">
+              <div className="flex flex-col  w-full  h-auto min-h-[150vh] sm:pb-20 pb-0 z-50 bg-[#e7e5e5] border-t-[15px] border-t-[#2987bc] ">
                 <div className="flex flex-col sm:flex-col lg:flex-row justify-evenly sm:h-auto z-50 bg-[#e7e5e5]">
                   <div>
                     <ul>
