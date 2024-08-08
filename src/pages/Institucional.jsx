@@ -44,7 +44,7 @@ const Institucional = () => {
         </div>
       </div>
       {/*segunda fila */}
-      <div className="sm:flex flex-row justify-around mt-14 gap-14 ml-12">
+      <div className="sm:flex flex-row justify-around mt-14 gap-14 sm:ml-12 ml-10 mr-10">
         <div className="w-full sm:w-2/3 md:w-1/3 flex flex-col gap-10 pb-12">
           <h1 className="sm:text-4xl text-3xl text-[#2987BC]">Capacitación</h1>
           <p className="sm:text-xl text-md text-[#505050]">
