@@ -12,7 +12,7 @@ import vigeo from "../assets/10 VIGEO.png";
 
 const Representaciones = () => {
   return (
-    <div className='border-l-[60px] border-r-[60px] border-[#E6F2F8]'>
+    <div className='sm:border-l-[60px] sm:border-r-[60px] border-[#E6F2F8]'>
       <div className="flex flex-row justify-center items-center w-full h-[171px] mt-[120px] bg-[#d9f0f9] font-lato">
         <h1 className="sm:text-6xl text-4xl text-[#2987BC]">
           Representaciones
