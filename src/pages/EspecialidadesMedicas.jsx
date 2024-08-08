@@ -1,6 +1,6 @@
 const EspecialidadesMedicas = () => {
   return (
-    <div>
+    <div className='border-l-[60px] border-r-[60px] border-[#E6F2F8]'>
       <div className="flex flex-row justify-center items-center w-full h-[171px] mt-[120px] bg-[#d9f0f9] font-lato">
         <h1 className="sm:text-6xl text-3xl text-[#2987BC]">Especialidades Médicas</h1>
       </div>
@@ -54,7 +54,7 @@ const EspecialidadesMedicas = () => {
         </div>
       </div>
       {/*segunda fila */}
-      <div className="sm:flex flex-row justify-around mt-14 gap-14 m-12">
+      <div className="sm:flex flex-row justify-around mt-14 gap-14 ml-12 pb-12">
         <div className="w-full sm:w-2/3 md:w-1/3 flex flex-col gap-10">
           <h1 className="sm:text-4xl text-3xl text-[#2987BC]">Urología</h1>
           <ul className="sm:text-xl text-md list-disc list-inside text-[#505050] marker-red">
