@@ -77,7 +77,7 @@ const Institucional = () => {
             intensiva, Equipamiento Láser.
           </p>
         </div>
-        <div className="w-full sm:w-2/3 md:w-1/3 flex flex-col gap-10 mr-12">
+        <div className="w-full sm:w-2/3 md:w-1/3 flex flex-col gap-10 ">
           <h1 className="sm:text-4xl text-3xl text-[#2987BC] sm:mt-0 mt-10">
             Cobertura
           </h1>
