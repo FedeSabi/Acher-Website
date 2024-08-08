@@ -13,7 +13,7 @@ function Footer2() {
           <p className="max-w-xs mt-4 text-lg text-gray-600">
           Acher Argentina - Doblas 1510 - CABA
           </p>
-          <div className="flex mt-8 space-x-4 justify-center mr-16 text-blue-500">
+          <div className="flex mt-8 space-x-4 justify-center mr-16 text-[#2987BC]">
             <Link
               className="hover:opacity-75"
               to="https://www.facebook.com/p/Acher-Argentina-100063685132897/"
