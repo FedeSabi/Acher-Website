@@ -7,8 +7,14 @@ import logo from "../assets/Acher_logo.png";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  // Función para alternar el menú
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
+  };
+
+  // Función para cerrar el menú
+  const closeMenu = () => {
+    setMenuOpen(false);
   };
 
   return (
@@ -68,11 +74,20 @@ const Navbar = () => {
                 key={index}
                 className="p-2 lg:p-4 block border-b-2 border-transparent hover:border-indigo-400 font-lato xl:text-xl lg:text-md md:text-lg transition duration-300"
               >
-                <Link to={to}>{label}</Link>
+                <Link
+                  to={to}
+                  onClick={closeMenu}
+                >
+                  {label}
+                </Link>
               </li>
             ))}
             <li className="p-2 lg:p-4 block border-b-2 border-transparent hover:border-indigo-400 font-lato xl:text-xl lg:text-md md:text-lg transition duration-300">
-              <Link to="#" className="flex items-center">
+              <Link
+                to="#"
+                className="flex items-center"
+                onClick={closeMenu}
+              >
                 <FaPhone className="mr-2" />
                 (+54 11) 4921-0173
               </Link>
@@ -81,6 +96,7 @@ const Navbar = () => {
               <Link
                 to="https://wa.me/5491131879486"
                 className="flex items-center"
+                onClick={closeMenu}
               >
                 <ImWhatsapp className="mr-2 text-green-500" />
                 Ventas
