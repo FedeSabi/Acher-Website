@@ -159,11 +159,11 @@ const ButtonsHome2 = () => {
           <div
             className={`transition-all duration-500 ease-in-out w-screen ${
               openSection ? "max-h-[1200px]" : "max-h-0"
-            } overflow-hidden absolute left-0 right-0 bg-[#e7e5e5] sm:mt-[150px] mt-80 sm:-ml-[0px] md:-ml-[0px] lg:-ml-[0px] xl:-ml-[90px]  `}
+            } overflow-hidden absolute left-0 right-0 bg-[#e7e5e5] sm:mt-[150px] md:mt-[460px] lg:mt-[330px]  xl:mt-36 mt-80 sm:-ml-[0px] md:-ml-[0px] lg:-ml-[60px] xl:-ml-[90px]  `}
           >
             {/*Inicio cardilogia */}
             {openSection === "cardiología" && (
-              <div className="flex flex-col  w-full  h-auto min-h-[150vh] sm:pb-20 pb-0 z-50 bg-[#e7e5e5] border-t-[15px] border-t-[#2987bc] ">
+              <div className="flex flex-col w-full  h-auto min-h-[150vh] sm:pb-20 pb-0 z-50 bg-[#e7e5e5] border-t-[15px] border-t-[#2987bc] ">
                 <div className="flex flex-col sm:flex-col lg:flex-row justify-evenly sm:h-auto z-50 bg-[#e7e5e5]">
                   <div>
                     <ul>
