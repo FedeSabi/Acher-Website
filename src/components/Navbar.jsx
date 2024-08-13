@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <div className="antialiased bg-gray-400">
-      <header className="fixed top-0 left-0 right-0 z-50 lg:px-16 px-6 bg-white flex justify-between items-center lg:py-0 py-2 border-2 shadow-md">
+      <header className=" top-0 left-0 right-0 z-50 lg:px-16 px-6 bg-white flex justify-between items-center lg:py-0 py-2 border-2 shadow-md">
         <div className="flex items-center">
           <Link to="/">
             <img
