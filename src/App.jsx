@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer2 from "./components/Footer2"
-import Navbar from "./components/Navbar";
+import Navbar2 from "./components/Navbar2";
 import Home from "./pages/Home";
 import ButtonsHome2 from "./components/ButtonsHome2";
 import Institucional from "./pages/Institucional";
@@ -10,7 +10,7 @@ import Representaciones from "./pages/Representaciones";
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Navbar2 />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Institucional" element={<Institucional />} />
