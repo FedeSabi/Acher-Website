@@ -22,7 +22,7 @@ const Home = () => {
     <div className="flex flex-col justify-evenly">
       <CarouselHome />
       <div className="flex flex-col justify-center items-center w-auto mb-8">
-        <h1 className="sm:text-6xl sm:mt-20 text-3xl text-[#6ab4d2]">
+        <h1 className="sm:text-4xl sm:mt-20 text-3xl text-[#6ab4d2]">
           Especialidades Médicas
         </h1>
       </div>
