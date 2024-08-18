@@ -18,7 +18,7 @@ const Home = () => {
   }
   
   return (
-    <div className='sm:border-l-[60px] sm:border-r-[60px] border-[#E6F2F8]'>
+    <div className='border-l-0 border-r-0 border-[#E6F2F8] xl:border-l-[60px] xl:border-r-[60px]'>
     <div className="flex flex-col justify-evenly">
       <CarouselHome />
       <div className="flex flex-col justify-center items-center w-auto mb-8">
