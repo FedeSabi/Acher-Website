@@ -17,14 +17,14 @@ const Navbar2 = () => {
         <div className="flex items-center justify-evenly">
           <Link to="/">
             <img
-              className="lg:w-[111px] lg:h-[62px]"
+              className="lg:w-[111px] lg:h-[62px] md:w-[111px] md:h-[62px]"
               src={logo}
               alt="Logo Archer"
             />
           </Link>
 
           {/* Mobile menu button */}
-          <div className="flex lg:hidden">
+          <div className="flex md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
@@ -74,28 +74,28 @@ const Navbar2 = () => {
         >
           <div className="flex flex-col md:flex-row md:mx-6">
             <Link
-              className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0 font-lato xl:text-xl lg:text-md md:text-lg"
+              className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0 font-lato xl:text-xl lg:text-md md:text-xs"
               to="/especialidadesMedicas"
               onClick={handleLinkClick}
             >
               Especialidades Médicas
             </Link>
             <Link
-              className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0 font-lato xl:text-xl lg:text-md md:text-lg"
+              className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0 font-lato xl:text-xl lg:text-md md:text-xs"
               to="/representaciones"
               onClick={handleLinkClick}
             >
               Representaciones
             </Link>
             <Link
-              className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0 font-lato xl:text-xl lg:text-md md:text-lg"
+              className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0 font-lato xl:text-xl lg:text-md md:text-xs"
               to="/Institucional"
               onClick={handleLinkClick}
             >
               Institucional
             </Link>
             <Link
-              className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0 font-lato xl:text-xl lg:text-md md:text-lg"
+              className="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0 font-lato xl:text-xl lg:text-md md:text-xs"
               to="#"
               onClick={handleLinkClick}
             >
@@ -110,8 +110,8 @@ const Navbar2 = () => {
               className="relative text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-300"
               to="https://wa.me/5491131879486"
             >
-            <div className='flex  font-lato xl:text-xl lg:text-md md:text-lg'>
-              <ImWhatsapp className="mr-2 mt-1 xl:mt-0 xl:text-3xl lg:text-md md:text-lg text-green-500" />
+            <div className='flex font-lato xl:text-xl lg:text-md md:text-xs'>
+              <ImWhatsapp className="mr-2 mt-1 xl:mt-0 xl:text-3xl lg:text-md md:text-md text-green-500" />
               Ventas
             </div>
             </Link>
