@@ -106,20 +106,17 @@ const Navbar2 = () => {
             </Link>
             
           </div>
-
-          <div className="flex justify-center md:block">
             <Link
               className="relative text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-300"
               to="https://wa.me/5491131879486"
             >
             <div className='flex  font-lato xl:text-xl lg:text-md md:text-lg'>
-              <ImWhatsapp className="mr-2 text-3xl text-green-500" />
+              <ImWhatsapp className="mr-2 mt-1 xl:mt-0 xl:text-3xl lg:text-md md:text-lg text-green-500" />
               Ventas
             </div>
             </Link>
           </div>
         </div>
-      </div>
     </nav>
   );
 };
