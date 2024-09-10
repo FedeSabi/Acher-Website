@@ -81,18 +81,18 @@ const ButtonsHome3 = () => {
 
   return (
     <div>
-      <div className="flex flex-wrap justify-center items-center gap-4">
+      <div className="flex flex-wrap justify-center items-center sm:mt-20 gap-4">
         {" "}
         {/* Ajuste del contenedor 2 */}  
-        <div className="relative mt-10 flex flex-wrap gap-4 justify-center ">
+        <div className="relative mt-20 flex flex-wrap gap-4 justify-center ">
           {/* Asegurar el flujo de columna y espacio entre los botones */}
           <button
             onClick={() => {
               handleToggle("urologia");
               handleButtonClick("urologia")}}
-            className={`outline-none focus:outline-none border sm:w-[442px] w-[320px] sm:h-[129px] h-[90px] ${selectedButton === "urologia" ? "bg-[#2987bc] sm:h-[165px]" : "bg-[#6ab4d2]"} rounded-2xl flex items-center min-w-32`}
+            className={`outline-none focus:outline-none border sm:w-[442px] w-[320px] sm:h-[129px] h-[90px] ${selectedButton === "urologia" ? "bg-[#2987bc] sm:h-[165px]" : "bg-[#6ab4d2]"} rounded-2xl flex items-center `}
           >
-            <span className="pr-1 font-semibold flex-1 ml-8 text-white sm:text-2xl text-lg">
+            <span className="pr-1 font-semibold flex-1  text-white ml-8 sm:text-2xl text-lg">
               Urología
             </span>
             <span>
@@ -158,7 +158,7 @@ const ButtonsHome3 = () => {
           <div
             className={`transition-all duration-500 ease-in-out w-screen ${
               openSection ? "max-h-[1050px]" : "max-h-0"
-            } overflow-hidden absolute left-0 right-0 bg-[#e7e5e5] sm:mt-[150px] md:mt-[460px] lg:mt-[330px] 2xl:mt-36 mt-80 sm:-ml-[0px] md:-ml-[0px] lg:-ml-[60px] xl:-ml-[90px] 2xl:-ml-[90px] `}
+            } overflow-hidden absolute left-0 right-0 bg-[#e7e5e5] sm:mt-[150px] md:mt-[460px] lg:mt-[330px] 2xl:mt-36 mt-80 sm:-ml-[0px] md:-ml-[0px] lg:-ml-[60px] xl:-ml-[60px] 2xl:-ml-[90px] `}
           >
             {/* inicio urologia */}
             {openSection === "urologia" && (
