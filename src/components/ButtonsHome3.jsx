@@ -81,10 +81,10 @@ const ButtonsHome3 = () => {
 
   return (
     <div>
-      <div className="flex flex-wrap justify-center items-center sm:mt-20 gap-4">
+      <div className="flex flex-wrap justify-center items-center sm:mt-0 gap-4">
         {" "}
         {/* Ajuste del contenedor 2 */}  
-        <div className="relative mt-20 flex flex-wrap gap-4 justify-center ">
+        <div className="relative mt-10 flex flex-wrap gap-4 justify-center ">
           {/* Asegurar el flujo de columna y espacio entre los botones */}
           <button
             onClick={() => {
